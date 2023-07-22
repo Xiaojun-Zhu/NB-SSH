@@ -145,6 +145,7 @@ def worker_thread2(sock_from,sock_to):
 		if data:
 			command = 'AT+CSOSEND='+ str(judge2) +','+ str(len(data_hex)) +','+ data_hex
 			ser.write((command+'\r\n').encode())
+			time.sleep(0.1) # add a small delay to avoid packet loss
 
 def main():
 	try:
