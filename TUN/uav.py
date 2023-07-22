@@ -154,7 +154,7 @@ def worker_thread2(tun):
 		if data:
 			command = 'AT+CSOSEND='+ str(judge2) +','+ str(len(data_hex)) +','+ data_hex
 			ser.write((command+'\r\n').encode())
-			time.sleep(0.5)
+			
 
 def main():
 	try:
