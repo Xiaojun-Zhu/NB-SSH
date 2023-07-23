@@ -131,7 +131,7 @@ def worker_thread1(sock_from,sock_to):
 	while(True):
 		rec_buff = ser.readline()
 		message=""
-		if '+CSONMI: 0' in str(rec_buff.decode()):
+		if b'+CSONMI: 0' in rec_buff:
 			message = rec_buff.split(b',')[2]
 			message_bytes = bytes.fromhex(message.decode())
 			sock2.send(message_bytes)
