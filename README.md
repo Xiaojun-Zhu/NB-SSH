@@ -3,7 +3,7 @@
 Source code for the following paper.
 
 `
-Xiaojun Zhu, Jiao Tang. "NB-SSH: NB-IoT-Based Remote SSH Access to UAVs under Symmetric NAT." IEEE Networking Letters, 2023.`
+Xiaojun Zhu, Jiao Tang. "NB-SSH: NB-IoT-Based Remote SSH Access to UAVs under Symmetric NAT." IEEE Networking Letters, 2023.`https://doi.org/10.1109/LNET.2023.3323389
 
 If you find the software helpful, please cite the paper.
 
@@ -27,7 +27,7 @@ Run the program at the cloud server, and then run the program for the UAV. The m
 
 The folder contains three Python files for the three entities. Both the UAV and the Management Host need to build a local TUN interface.
 
-Some preparation is needed.
+The TUN interface is built based on the **[pytun](https://github.com/montag451/pytun)**.
 
 Environment: Linux, NB-IoT, Python\>=3.6
 
@@ -46,5 +46,5 @@ Cloud Server, UAV, Management Host
 Then run the ssh command in the management host. Note that the destination should be the UAV's IP address of the TUN interface.
 
 
-The TUN interface is built based on the **[pytun](https://github.com/montag451/pytun)**. We thank the author for his efforts.
+
 
