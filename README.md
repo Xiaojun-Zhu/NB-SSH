@@ -3,7 +3,7 @@
 Source code for the following paper.
 
 `
-Xiaojun Zhu, Jiao Tang. "NB-SSH: NB-IoT-Based Remote SSH Access to UAVs under Symmetric NAT." IEEE Networking Letters, 2023.`https://doi.org/10.1109/LNET.2023.3323389
+Xiaojun Zhu, Jiao Tang. "NB-SSH: NB-IoT-Based Remote SSH Access to UAVs under Symmetric NAT." IEEE Networking Letters, 6(1), pages 6-10, March 2024.`https://doi.org/10.1109/LNET.2023.3323389
 
 If you find the software helpful, please cite the paper.
 
